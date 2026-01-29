@@ -1,0 +1,161 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#f2f2f2;
+}
+
+/* NAVBAR */
+nav{
+  background:#222;
+  padding:15px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+nav ul{
+  display:flex;
+  justify-content:flex-end;
+  list-style:none;
+}
+
+nav ul li{
+  margin-left:20px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover{
+  color:#00ffd5;
+}
+
+/* HERO */
+.hero{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero p{
+  color:#aaa;
+  margin-top:10px;
+}
+
+/* SECTIONS */
+section{
+  scroll-margin-top:80px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  width:80%;
+  margin:30px auto;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  opacity:0;
+  transform:translateY(30px);
+  transition:0.6s;
+}
+
+.card h2{
+  border-bottom:1px solid #ddd;
+  padding-bottom:10px;
+  margin-bottom:20px;
+}
+
+/* ABOUT */
+.about{
+  display:flex;
+  gap:20px;
+  align-items:center;
+}
+
+.about img{
+  width:140px;
+  height:180px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+/* SKILLS */
+.skills li{
+  margin-bottom:8px;
+}
+
+/* PROJECTS */
+.projects{
+  display:flex;
+  gap:20px;
+}
+
+.project{
+  background:#fafafa;
+  padding:15px;
+  border-radius:10px;
+  width:50%;
+}
+
+.project img{
+  width:100%;
+  border-radius:8px;
+}
+
+/* RESUME */
+.center{
+  text-align:center;
+}
+
+.btn{
+  background:teal;
+  color:white;
+  padding:10px 25px;
+  border-radius:20px;
+  text-decoration:none;
+}
+
+/* CONTACT */
+.social a{
+  margin-right:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+
+footer{
+  background:#222;
+  color:#aaa;
+  text-align:center;
+  padding:20px 10px;
+  margin-top:40px;
+}
+
+footer p{
+  margin-bottom:8px;
+  font-size:14px;
+}
+
+.footer-links a{
+  color:#00ffd5;
+  text-decoration:none;
+  margin:0 5px;
+  font-size:14px;
+}
+
+.footer-links a:hover{
+  text-decoration:underline;
+}
